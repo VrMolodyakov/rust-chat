@@ -110,10 +110,12 @@ dependencies = [
  "futures",
  "lazy_static",
  "log",
+ "once_cell",
  "regex",
  "serde",
  "serde_json",
  "tokio",
+ "tokio-stream",
  "uuid",
  "warp",
 ]
@@ -1032,6 +1034,7 @@ dependencies = [
  "futures-core",
  "pin-project-lite",
  "tokio",
+ "tokio-util 0.7.4",
 ]
 
 [[package]]
